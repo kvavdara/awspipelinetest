@@ -1,0 +1,12 @@
+name: Trigger Events
+
+on: 
+push:
+  branches:
+    - main
+    - test1
+
+jobs:
+  runs-on: ubuntu-24.04
+  steps: 
+    echo "Testing GHA Pipeline"
